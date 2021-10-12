@@ -1,11 +1,12 @@
 import './App.css';
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a href="https://ravenkmusic.com/" target="_blank" rel="noreferrer">*insert dummy link here*.</a>
-      </header>
+      <h1 className="display-2">A Dictionary by Raven K</h1>
+      <Search />
+      <footer>Coded by <a href="https://ravenkmusic.com/" rel="noreferrer">Raven Hendricks</a></footer>
     </div>
   );
 }

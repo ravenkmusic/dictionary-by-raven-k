@@ -1,0 +1,9 @@
+.search-background {
+    background: linear-gradient(42deg, rgb(248, 121, 56) 0%, rgb(189, 158, 123) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.search {
+    margin: 30px 0;
+}
