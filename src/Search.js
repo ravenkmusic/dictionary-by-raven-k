@@ -5,6 +5,7 @@ import "./Search.css";
 
 export default function Search () {
     let [keyword, setKeyword] = useState("");
+    let [results, setResults] = useState({});
 
     function handleResponse(response) {
         console.log(response.data[0]);
@@ -18,6 +19,7 @@ export default function Search () {
         console.log(response.data[0].meanings[1].definitions[0].definition);
         console.log(response.data[0].meanings[1].definitions[0].synonyms);
         console.log(response.data[0].meanings[1].definitions[0].antonyms);
+        setResults(response.data[0]);
     }
 
     function Define (event) {

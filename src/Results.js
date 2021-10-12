@@ -2,5 +2,12 @@ import React from "react";
 import "./Results.css";
 
 export default function Results (props) {
-    return (<div className="Results">Testing...</div>);
+    if (props.results) {
+        return (
+        <div className="Results">
+            Testing...
+        </div>);
+    } else {
+        return null;
+    }
 }
