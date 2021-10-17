@@ -32,7 +32,7 @@ hr {
     font-weight: lighter;
 }
 
-.synonyms, .antonyms {
+.synonyms, .antonyms, .phonetic {
     font-style: italic;
     text-align: left;
     margin-left: 30px;

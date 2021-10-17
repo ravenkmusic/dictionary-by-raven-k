@@ -1,6 +1,7 @@
 .partOfSpeech {
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: lighter;
 }
 
 .definitions {
