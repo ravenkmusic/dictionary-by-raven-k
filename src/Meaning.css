@@ -1,0 +1,15 @@
+.partOfSpeech {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.definitions {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.examples {
+    font-style: italic;
+    margin-left: 30px;
+    text-align:left;
+}

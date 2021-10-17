@@ -1,15 +1,16 @@
 body {
-  background: linear-gradient(42deg, rgb(248, 121, 56) 0%, rgb(189, 123, 159) 84%);
+  background: linear-gradient(42deg, rgb(248, 121, 56) 0%, rgb(172, 145, 110) 84%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
 }
 
 h1 {
-  text-shadow: 2px 5px 10px rgba(160, 105, 105, 0.4);
+  text-shadow: 2px 5px 10px rgba(26, 17, 17, 0.4);
+  font-weight: lighter;
+  font-size: xxx-large;
 }
 
 footer {
   margin: 20px 0;
 }
-
