@@ -26,13 +26,21 @@ hr {
     text-transform: capitalize;
 }
 
+.phoneticText {
+    font-size: 18px;
+}
+
+a {
+    font-size: 20px;
+}
+
 .refresh {
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
 }
 
-.synonyms, .antonyms, .phonetic {
+.synonyms, .antonyms, .phoneticLink {
     font-style: italic;
     text-align: left;
     margin-left: 30px;
