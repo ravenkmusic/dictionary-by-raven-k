@@ -18,7 +18,7 @@ export default function Search () {
         let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiURL).then(handleWordResponse);
 
-        let pexelsapiURL = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+        let pexelsapiURL = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
         let pexelsapiKey = "563492ad6f917000010000013621894597a34e568fb19f0031d91ab8";
         axios
         .get(pexelsapiURL, 
