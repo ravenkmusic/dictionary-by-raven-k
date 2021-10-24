@@ -10,7 +10,7 @@ export default function Results (props) {
             <div className="first">
             <p className="word fs-3">{props.results.word}</p>
             <p className="phoneticLink"><a href={props.results.phonetics[0].audio} target="_blank" rel="noreferrer">
-                Pronunciation:
+                Hear:
                 </a>
                 <div className="phoneticText">
                 /{props.results.phonetics[0].text}/
