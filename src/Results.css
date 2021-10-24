@@ -27,7 +27,7 @@
 }
 
 a {
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(97, 42, 16, 0.788);
     transition: all 30ms ease-in-out;
     text-decoration: none;

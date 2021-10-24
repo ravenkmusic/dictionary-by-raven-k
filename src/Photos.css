@@ -1,12 +1,12 @@
-.Photos section {
-    background: linear-gradient(42deg, rgb(255, 131, 69) 0%, rgb(184, 117, 62) 100%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+img {
+    display: block;
     margin: 0 auto;
     margin-top: 30px;
+    max-width: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(26, 17, 17, 0.4);
+}
+
+.credit {
     margin-bottom: 30px;
-    max-width: 800px;
-    border: 2px outset rgb(184, 97, 62);
-    border-radius: 24px;
-    box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.2);
 }

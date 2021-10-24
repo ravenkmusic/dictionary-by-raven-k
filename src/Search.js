@@ -56,7 +56,7 @@ export default function Search () {
                 <div className="userAction">Search a word and press enter!</div>
                 <Results results={results}/>
                 <section>
-                    <Photos results ={photos} />
+                    <Photos photos={photos} />
                 </section>
             </div>
         );
