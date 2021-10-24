@@ -6,6 +6,7 @@ export default function Results (props) {
     if (props.results) {
         return (
         <div className="Results">
+            <section>
             <div className="first">
             <p className="word fs-3">{props.results.word}</p>
             <p className="phoneticLink"><a href={props.results.phonetics[0].audio} target="_blank" rel="noreferrer">
@@ -16,17 +17,15 @@ export default function Results (props) {
                 </div>
                 </p>
             </div>
-            <hr />
+            </section>
             {props.results.meanings.map(function(meaning, index) {
                 return (
-                <div key={index}>
+                <section key={index}>
                     <Meaning meaning={meaning} />
-                </div>);
+                </section>);
             })}
         </div>);
     } else {
-        return (<div classname="Results">
-            <p className="refresh">Search a word and press enter to view its definition!</p>
-        </div>);
+        return null;
     }
 }

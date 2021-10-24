@@ -1,7 +1,8 @@
 .partOfSpeech {
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.425);
 }
 
 .definitions {
@@ -17,4 +18,11 @@
     margin-left: 30px;
     text-align:left;
     margin-bottom: 15px;
+    line-height: 27px;
+}
+
+hr {
+    max-width: 100px;
+    color: rgb(255, 131, 69);
+    margin: 30px auto;
 }

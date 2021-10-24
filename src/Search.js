@@ -25,9 +25,10 @@ export default function Search () {
 
     return (
         <div className="search">
-            <form onSubmit={Define}>
+                <form onSubmit={Define}>
                 <input type="search" autoFocus={true} onChange={handleKeywordChange}/>
             </form>
+            <div className="userAction">Search a word and press enter!</div>
             <Results results={results}/>
         </div>
     );
